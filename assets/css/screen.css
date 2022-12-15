@@ -571,3 +571,8 @@
         top: 1px;
     }
 }
+
+.ds-header {
+    position: fixed;
+    width: 100%;
+}
