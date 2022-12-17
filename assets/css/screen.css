@@ -11,7 +11,7 @@
 
 .tag-template .gh-main,
 .author-template .gh-main {
-    padding-top: 8vmin;
+    padding-top: 10vmin;
 }
 
 .gh-head-menu,
@@ -141,7 +141,7 @@
 
 .gh-sidebar {
     position: sticky;
-    top: 4.8rem;
+    top: 7rem;
     height: max-content;
     padding-left: 4rem;
     font-size: 1.4rem;
@@ -418,11 +418,10 @@
 
 .gh-pagehead {
     position: sticky;
-    top: 4vmin;
+    top: 10vmin;
     grid-column: wide-start/main-start;
     max-width: 200px;
     height: max-content;
-    padding-top: 0.8rem;
     font-size: 1.4rem;
     line-height: 1;
 }
