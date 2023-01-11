@@ -482,6 +482,12 @@
 }
 
 @media (max-width: 767px) {
+    .tag-template .gh-main,
+    .author-template .gh-main,
+    .gh-main {
+        padding-top: 20vmin;
+    }
+
     .gh-latest {
         margin-bottom: 8rem;
     }
