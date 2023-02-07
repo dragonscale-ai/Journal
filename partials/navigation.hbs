@@ -1,0 +1,6 @@
+{{!-- Current template: https://github.com/TryGhost/Ghost/blob/main/ghost/core/core/frontend/helpers/tpl/navigation.hbs --}}
+<ul class="nav">
+    {{#foreach navigation}}
+    <li class="{{link_class for=(url) class=(concat "nav-" slug)}}"><a class="ds-nav-link" href="{{url absolute="true"}}">{{label}}</a></li>
+    {{/foreach}}
+</ul>

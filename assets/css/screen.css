@@ -582,3 +582,11 @@
     width: 100%;
     z-index: 10000;
 }
+
+.gh-head {
+    height: 80px;
+}
+
+.ds-nav-link {
+    color: var(--ghost-accent-color);
+}

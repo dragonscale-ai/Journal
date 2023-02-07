@@ -17,7 +17,7 @@
         <div class="gh-head-inner gh-inner">
             <div class="gh-head-brand">
                 <div class="gh-head-brand-wrapper">
-                    <a class="gh-head-logo" href="{{@site.url}}">
+                    <a class="gh-head-logo" href="https://dragonscale.ai/">
                         {{#if @site.logo}}
                             <img src="{{@site.logo}}" alt="{{@site.title}}">
                         {{else}}
@@ -29,14 +29,14 @@
                 <button class="gh-burger"></button>
             </div>
 
-            {{!-- <nav class="gh-head-menu">
+            <nav class="gh-head-menu">
                 {{navigation}}
                 {{#unless @site.members_enabled}}
                     {{#match @custom.navigation_layout "Stacked"}}
                         <button class="gh-search gh-icon-btn" data-ghost-search>{{> "icons/search"}}</button>
                     {{/match}}
                 {{/unless}}
-            </nav> --}}
+            </nav>
 
             <div class="gh-head-actions">
                 {{#unless @site.members_enabled}}
@@ -48,7 +48,6 @@
                     <div class="gh-head-members">
                         {{#unless @member}}
                             {{#unless @site.members_invite_only}}
-                                <a class="gh-head-link" href="#/portal/signin" data-portal="signin">Sign in</a>
                                 <a class="gh-head-btn gh-btn gh-primary-btn" href="#/portal/signup" data-portal="signup">{{> "icons/email"}} Subscribe</a>
                             {{else}}
                                 <a class="gh-head-btn gh-btn gh-primary-btn" href="#/portal/signin" data-portal="signin">Sign in</a>
@@ -70,7 +69,7 @@
             <div class="gh-outer">
                 <section class="gh-subscribe-inner">
                     <h3 class="gh-subscribe-title">Subscribe to updates from the {{@site.title}}</h3>
-                    <div class="gh-subscribe-description">Don't miss out on the latest issues. Sign up now to get new issues sent directly to your inbox.</div>
+                    <div class="gh-subscribe-description">Don't miss out on the latest posts. Sign up now to get new posts sent directly to your inbox.</div>
                     <a class="gh-subscribe-input" href="#/portal/signup" data-portal="signup">
                         <div class="gh-subscribe-input-text">
                             {{> icons/email}}
