@@ -418,7 +418,7 @@
 
 .gh-pagehead {
     position: sticky;
-    top: 10vmin;
+    top: 11vmin;
     grid-column: wide-start/main-start;
     max-width: 200px;
     height: max-content;
